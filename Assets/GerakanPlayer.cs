@@ -40,7 +40,7 @@ public class GerakanPlayer : MonoBehaviour
         if (collision.collider.CompareTag("virus"))
         {
             Time.timeScale = 0;
-            Destroy(GameObject);
+            Destroy(gameObject);
         }
     }
 
